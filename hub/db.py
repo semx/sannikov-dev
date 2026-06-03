@@ -116,7 +116,7 @@ class HubDatabase:
         )
         self.connection.commit()
         return Transaction(
-            id=int(cursor.lastrowid),
+            id=int(cursor.lastrowid or 0),
             posted_on=parsed_date,
             amount=parsed_amount,
             currency=currency_code,

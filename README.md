@@ -1,5 +1,7 @@
 # sannikov.dev
 
+[![tests](https://github.com/semx/sannikov-dev/actions/workflows/tests.yml/badge.svg)](https://github.com/semx/sannikov-dev/actions/workflows/tests.yml)
+
 Personal tech hub and self-hosted financial automation toolkit for contractor
 work.
 
