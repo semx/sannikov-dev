@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sannikov-dev"
+version = "0.1.0"
+description = "Personal tech hub and financial automation toolkit"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "Sergey Sannikov" }
+]
+license = "MIT"
+dependencies = [
+  "fastapi>=0.110",
+  "uvicorn>=0.27",
+  "weasyprint>=61"
+]
+
+[project.optional-dependencies]
+test = []
+
+[project.scripts]
+sannikov-hub = "hub.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["hub*"]
