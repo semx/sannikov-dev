@@ -1,0 +1,21 @@
+{
+  "number": "SS-2026-001",
+  "issued_on": "2026-01-15",
+  "due_on": "2026-01-30",
+  "seller": "Sergey Sannikov",
+  "client": "Example Client LLC",
+  "currency": "USD",
+  "notes": "Payment by bank transfer.",
+  "lines": [
+    {
+      "description": "Platform engineering consulting",
+      "quantity": 1,
+      "unit_price": 3200
+    },
+    {
+      "description": "Infrastructure automation support",
+      "quantity": 2,
+      "unit_price": 450
+    }
+  ]
+}
